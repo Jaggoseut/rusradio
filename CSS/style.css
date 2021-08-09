@@ -1,0 +1,1051 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url("../FONTS/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto300", sans-serif;
+    src: url("../FONTS/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto100", sans-serif;
+    src: url("../FONTS/Roboto-Thin.ttf");
+}
+
+body, html {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background: linear-gradient(155.79deg, #97089B 0.26%, #210E36 49.3%, #5712A2 105.17%);
+    background-size: cover;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+Header {
+    width: 100%;
+    background-color: #27083A;
+    background-size: cover;
+}
+.headerMenu {
+    max-width: 943px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    height: 36px;
+    max-width: 56px;
+    max-height: 36px;
+    background: url("../IMG/logo-project.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+ol, ul {
+	list-style: none;
+    margin: 0;
+}
+
+.navWrap {
+    flex-basis: 54%;
+    align-items: center;
+    display: flex;
+    height: 41px;
+    padding: 0;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+
+.navWrap li {
+    /* padding: 0 13.5px; */
+    /* display: block; */
+    /* letter-spacing: 0.2px; */
+}
+
+.navWrap a {
+    /* font-size: 0.7697293em; */
+    line-height: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navWrap li:first-child {
+    /* padding-left: 0; */
+}
+
+.navWrap li:last-child {
+    /* padding-right: 0; */
+}
+
+.navWrap a:hover {
+    color: rgb(127, 246, 255);
+}
+
+.navSocial {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 116px;
+    max-width: 116px;
+    justify-content: space-between;
+}
+
+.navSocial a {
+    width: 15px;
+    height: 14px;
+}
+
+.navSocial a:first-child {
+}
+
+.navSocial a:last-child {
+    padding-right: 0;
+}
+
+.btn {
+    /* padding-left: 39px; */
+    /* padding-top: 2px; */
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn a {
+    font-family: "Roboto300", sans-serif;
+    float: right;
+    font-size: 0.7697293em;
+    text-decoration: none;
+    height: 14px;
+    color: #fff;
+    padding: 9px 19.75px;
+    background: #27083A;
+    border-radius: 15px;
+    border: 2px solid #D02380;
+}
+
+.btn a:hover {
+    color: aquamarine;
+    background: #D02380;
+    border: 2px solid #27083A;
+}
+
+.content1 {
+    width: 100%;
+}
+
+.box_foto {
+    position: relative;
+    max-width: 100%;
+    width: 428px;
+    height: 401px;
+    float: right;
+}
+
+.cub {
+    position: absolute;
+    width: 428px;
+    height: 142px;
+    padding-top: 81px;
+}
+.gradient {
+    position: absolute;
+    max-width: 100%;
+    width: 428px;
+    height: 142px;
+    background: linear-gradient(90.32deg, #3D3EEA -4.59%, #E96168 89.7%);
+}
+
+.foto { 
+    position: absolute;
+    padding-left: 27px;
+}
+
+.twofoto {
+    display: none;
+}
+
+.text_1 {
+    float: left;
+    max-width: 100%;
+    width: 467px;
+    height: 161px;
+    padding: 81px 0 12px 0;
+}
+
+.text_1_1 {
+    float: left;
+    padding-bottom: 17px; 
+    width: 213px;
+    height: 21px;
+    background: url("../IMG/Онлайн\ конкурс\ красоты.png");
+    background-repeat: no-repeat;
+}
+
+.text_1_2 {
+    float: left;
+    width: 467px;
+    height: 123px; 
+    margin: 0;
+    padding-bottom: 12px;
+    background-repeat: no-repeat;
+    background-position: left, center;
+}
+
+.text_1_3 {
+    width: 468px;
+    height: 125px;
+    float: left;
+}
+
+.text_1_3 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+}
+
+.van1 {
+    position: absolute;
+    width: 167.67px;    
+    height: 50px;
+    background: #D02380;
+    border-radius: 35px;
+    margin: 37.5px auto;   
+    float: left;
+}
+.text_1_3 .van1:hover {
+    color: aquamarine;
+    background: #6023d0;    
+}
+
+.van1 p {
+    margin-left: 28px;
+}
+
+.van2 { 
+    position: absolute;
+    width: 148.52px;
+    height: 49px;   
+    float: left;
+    margin: 38px 5.95px 38px 20.86px;
+}
+
+.van3 {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    float: left;
+    border-radius: 125px;
+    background: radial-gradient(805.21% 1487.23% at 209.6% -30%, #2D0D3A 0%, #6F0974 87.95%);
+}
+
+.text_1_3 .van3:hover {
+    color: aquamarine;
+    background: radial-gradient(805.21% 1487.23% at 209.6% -30%, #1e0d3a 0%, #3a0ea0 87.95%);   
+}
+
+.van3 p {
+    margin-left: 17.13px;
+}
+
+.content2 {
+    display: flex;
+    width: 942px;
+    height: 70px;
+    padding-bottom: 70px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content2 a {
+    text-decoration: none;    
+    width: 120px;   
+    height: 70px;
+}
+
+.content2 a:first-child {
+    padding-left: 0;
+}
+
+.headhunter {
+    padding: 16px 16px 16.07px 15.81px ;
+}
+
+.content3 {
+    width: 942px;
+    height: 381px;  
+    padding-bottom: 31px;
+    margin: 0 auto;
+}
+
+.text_2 {
+    width: 646px;   
+    height: 57px;    
+    padding: 0 0 17px 0;    
+}
+
+.text_2 p {
+   float: left;
+   font-family: "Roboto300", sans-serif; 
+   font-size: 24px;
+   line-height: 28px;
+   margin: 0;
+}
+
+.box_foto2 {
+    width: 803px;
+    height: 290px;
+    padding: 17px 0 0 0;
+    position: relative;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+}
+
+.foto2 {
+    float: left;
+    width: 290px;
+    height: 290px;
+    background-image: url("../IMG/foto2.png");
+    mix-blend-mode: luminosity;
+    background-position: left;
+}
+.text_2_1 { 
+    width: 442px;
+    height: 101.5px;
+    float: left;
+    margin-left: 71px;
+    position: relative; 
+}
+
+.text_2_1 p {
+    float: left;
+    font-size: 14px;    
+    margin: 0;
+    position: absolute;
+    padding-bottom: 32px;
+}
+.text_2_1 p span {
+    text-decoration: underline;
+}
+
+.text_2_1 a {
+    width: 100px;
+    float: left;
+    font-size: 14px;    
+    padding: 82px 0 0 0;
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+}
+
+.text_2_1 img {
+    margin-left: 109px;
+}
+
+.grad {
+    width: 941px;
+    height: 240px;
+    background: linear-gradient( 226.08deg, rgba(233, 97, 104, .5) 24.78%, rgba(72, 11, 81, .5) 78.74%);
+    position: absolute;
+}
+
+.content4 {
+    width: 942px;
+    height: 121px;  
+    padding: 31px 0 51px 0;
+    margin: 0 auto;
+}
+
+.text_3 {
+    width: 646px;   
+    height: 57px;    
+    padding: 0 0 26px 0;    
+}
+
+.text_3 p {
+   float: left;
+   font-family: "Roboto100", sans-serif; 
+   font-size: 24px;
+   line-height: 28px;
+   margin: 0;
+}
+
+.text_3_1 {
+    height: 39px;
+    display: flex;
+}
+
+.text_3_1_1 {
+    width: 182px;   
+    height: 39px;
+    position: relative;
+}
+.text_3_1_1_1 {
+    position: relative;
+    width: 182px;
+    height: 18px;
+    float: left;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Ellipse {
+    float: left;
+    position: absolute;
+}
+
+.number01 {
+    float: left;
+    margin: 2px 2px;
+    position: absolute;
+}
+
+.vector1 {
+    float: left;
+    padding-left: 22px;
+    position: absolute;   
+}
+
+.text_3_1_1_2 {
+    padding-top: 23px;
+    width: 182px;   
+    height: 16px;
+    color: rgba(161, 131, 166, 1);
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Roboto300", sans-serif;
+    position: absolute;
+}
+
+.text_3_1_2 {
+    width: 182px;   
+    height: 39px;
+    position: relative;
+    margin-left: 71px;
+}
+.text_3_1_1_3 {
+    position: relative;
+    width: 182px;
+    height: 18px;
+    float: left;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text_3_1_1_4 {
+    padding-top: 23px;
+    width: 182px;   
+    height: 16px;
+    color: rgba(161, 131, 166, 1);
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Roboto300", sans-serif;
+    position: absolute;
+}
+
+.text_3_1_3 {
+    width: 182px;   
+    height: 39px;
+    position: relative;
+    margin-left: 71px;
+}
+.text_3_1_1_5 {
+    position: relative;
+    width: 182px;
+    height: 18px;
+    float: left;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text_3_1_1_6 {
+    padding-top: 23px;
+    width: 182px;   
+    height: 16px;
+    color: rgba(161, 131, 166, 1);
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Roboto300", sans-serif;
+    position: absolute;
+}
+.text_3_1_4 {
+    width: 182px;   
+    height: 39px;
+    position: relative;
+    margin-left: 71px;
+}
+.text_3_1_1_7 {
+    position: relative;
+    width: 182px;
+    height: 18px;
+    float: left;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text_3_1_1_8 {
+    padding-top: 23px;
+    width: 182px;   
+    height: 16px;
+    color: rgba(161, 131, 166, 1);
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Roboto300", sans-serif;
+    position: absolute;
+}
+
+.panel {
+    display: none;
+}
+
+.content5 {
+    width: 942px;
+    height: 357px;  
+    padding: 51px 0 30.5px 0;
+    margin: 0 auto;
+}
+
+.text_4_1 {
+    height: 56px;
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text_4_1 p {
+    float: left;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;  
+    padding: 14.25px 0 14.25px 0;   
+    
+}
+
+
+.vector6 {
+    width: 179px;
+    height: 3px;
+    background: linear-gradient(rgba(150, 166, 253, 1) 0%, rgba(224, 30, 100, 0) 100%);  
+}
+
+.text_4_1_3 {
+    margin-left: 686px;
+}
+
+.text_4_1_2 {
+    position: absolute;
+    margin-top: 11px;  
+    height: 16px;
+    width: 179px;
+}
+
+.text_4_1_2 img {
+    display: inline-block; /* см. как изменить промежуток между inline-block элементами */ 
+    width: 5px;    
+    vertical-align: middle; /* см. как убрать отступ под inline-block элементами */ 
+    text-align: start;
+    float: right;
+    padding-top: 7px;   
+}
+
+.text_4_1_2 a {
+    margin-right: 111px;  
+    text-decoration: none;
+    color: #fff;
+    font-family: "Roboto300", sans-serif;   
+    font-size: 14px;
+
+}
+
+.text_4_2 {
+    height: 301px;
+    position: relative;
+    display: flex;
+
+
+}
+
+.text_4_2_1 {
+    width: 688px;
+    height: 232px;
+    position: absolute;
+    margin-right: 254px;
+    margin-bottom: 69px;
+    
+}
+
+.text_4_2_2 {
+    width: 688px;
+    height: 232px;
+    position: absolute;
+    margin-left: 254px;
+    margin-top: 69px;
+}
+
+.text_4_2_1_1 {
+    height: 232px;
+    width: 180px;
+    float: left;
+}
+
+.margo {
+    height: 16px;
+    padding-bottom: 16px;   
+}
+
+.margo img {
+    height: 10px;
+    padding: 3px 0 3px 0;
+    margin-left: 56px;
+    float: right;
+    vertical-align: middle;
+
+}
+
+.margo a {
+    text-decoration: none;
+    color:rgba(161, 131, 166, 1);
+    font-size: 14px;
+    font-family: "Roboto300" sans-serif;
+}
+
+.guest_1 {
+    height: 200px;
+    background-image: url("../IMG/margo.png");
+}
+
+.text_4_2_1_2 {
+    height: 232px;
+    width: 180px;
+    float: right;
+}
+
+.evgen {
+    height: 16px;
+    padding-bottom: 16px;   
+}
+
+.evgen img {
+    height: 10px;
+    padding: 3px 0 3px 0;
+    margin-left: 56px;
+    float: right;
+    vertical-align: middle;
+
+}
+
+.evgen a {
+    text-decoration: none;
+    color:rgba(161, 131, 166, 1);
+    font-size: 14px;
+    font-family: "Roboto300" sans-serif;
+}
+
+.guest_2 {
+    height: 200px;
+    background-image: url("../IMG/evgen.png");
+}
+
+.text_4_2_2_1 {
+    height: 232px;
+    width: 180px;
+    float: left;
+}
+
+.mari {
+    height: 16px;
+    padding-bottom: 16px;   
+}
+
+.mari img {
+    height: 10px;
+    padding: 3px 0 3px 0;
+    margin-left: 56px;
+    float: right;
+    vertical-align: middle;
+
+}
+
+.mari a {
+    text-decoration: none;
+    color:rgba(161, 131, 166, 1);
+    font-size: 14px;
+    font-family: "Roboto300" sans-serif;
+}
+
+.guest_3 {
+    height: 200px;
+    background-image: url("../IMG/mari.png");
+}
+
+.text_4_2_2_2 {
+    height: 232px;
+    width: 180px;
+    float: right;
+}
+
+.ekata {
+    height: 16px;
+    padding-bottom: 16px;   
+}
+
+.ekata img {
+    height: 10px;
+    padding: 3px 0 3px 0;
+    float: right;
+    vertical-align: middle;
+
+}
+
+.ekata a {
+    text-decoration: none;
+    color:rgba(161, 131, 166, 1);
+    font-size: 14px;
+    font-family: "Roboto300" sans-serif;
+}
+
+.guest_4 {
+    height: 200px;
+    background-image: url("../IMG/ekata.png");
+}
+
+.content6 {
+    width: 942px;
+    height: 50px;  
+    padding: 30.5px 0 32px 0;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.content6 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn_2 {
+    height: 50px;
+    margin: 0 auto;
+    width: 167.67px;
+    background: rgba(208, 35, 128, 1);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn_2 p {
+    font-size: 14px;
+    font-family: "Roboto300", sans-serif;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.foot_1 {
+    width: 100%;
+    padding: 32px 0;
+    background-color: #27083A;
+    background-size: cover;
+}
+.footerMenu {
+    width: 942px;
+    height: 40px;
+    margin: 0 auto; 
+}
+
+.footerlogo {
+    width: 56px;
+    height: 36px;   
+    float: left;
+    background: url("../IMG/logo_2.png");
+    background-size: contain;
+}
+
+.footer_navWrap {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    height: 36px;
+    float: left;
+    margin-left: 180px;    
+}
+
+.footer_navWrap a {
+    font-size: 0.7697293em;
+    line-height: 16px;
+    text-decoration: none;    
+    padding: 0 13.5px;
+    color: #fff;
+}
+
+.footer_navWrap a:first-child {
+    padding-left: 0;
+}
+
+.footer_navWrap a:last-child {
+    padding-right: 0;
+}
+
+.footer_navWrap a:hover {
+    color: rgb(127, 246, 255);
+}
+
+.footer_navSocial {
+    float: left;
+    margin-left: 176px;
+    line-height: 36px;
+    text-decoration: none;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.footer_navSocial a { 
+    padding: 0 10px;
+}
+
+.footer_navSocial a:first-child {
+    padding-left: 0;
+}
+
+.footer_navSocial a:last-child {
+    padding-right: 0;
+}
+
+div.footerMenu_media {
+    display: none;
+}
+
+.slider {
+    display: none;
+}
+
+.vct24 {
+    display: none;
+}
+
+/* свойства модального окна по умолчанию */
+.modal {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* цвет фона */
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+/* при отображении модального окно */
+.modal:target {
+    opacity: 1; /* делаем окно видимым */
+	  pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+
+/* свойства для блока, содержащего контент модального окна */ 
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: linear-gradient(135deg, #FF3EA6 0%,
+    #27083A 120%);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* border: 1px solid rgba(0,0,0,.2); */
+    border-radius: 20px;
+    outline: 0;
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* свойства для заголовка модального окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: flex-end;
+    padding: 17.4px 20px;
+}
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* свойства для кнопки "Закрыть" */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+  position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.modal-body input:focus {
+    outline: none;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-family: "Roboto300", sans-serif;
+}
+
+.model-buttom {
+    padding: 21px 20px 23px 20px;
+    height: 48px;
+}
+
+.btn_3 {
+    height: 48px;
+    margin: 0 auto;
+    width: 167px;
+    background: rgba(208, 35, 128, 1);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+    
+.btn_3 p {
+    font-size: 14px;
+    font-family: "Roboto300", sans-serif;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+
+
+.media_style-header {
+    height: 41px;
+    padding: 20px 0;
+}
+
+.btn-close {
+    display: none;
+}
+.btn-menu {
+    display: none;
+}
+
+@media (max-device-width: 1024px) {
+
+    .сontent1 {
+        max-width: 100%;
+    }
+
+    .content2{
+        max-width: 100%;
+
+    }
+
+    img.onefoto {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cub {
+        max-width: 100%;
+        height: auto;
+    }
+    .gradient {
+        display: block;
+    }
+    .box_foto {
+        height: auto;
+    }
+}
+
+.content1_1 {
+    padding: 37px 10px 53px 10px;
+}
+
+.content1_2 {
+    max-width: 943px;
+    margin: 0 auto;
+    display: flex;
+    height: 401px;
+    flex-direction: row;
+    justify-content: space-between;
+}
